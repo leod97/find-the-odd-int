@@ -1,0 +1,7 @@
+def find_it(seq):
+    odd=None
+    for v in seq:
+        a=seq.count(v)
+        if a%2==1:
+            odd=v
+    return odd
